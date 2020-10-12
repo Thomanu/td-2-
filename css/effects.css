@@ -1,0 +1,107 @@
+ body { 
+     background-color: white; 
+    color: black; 
+
+}
+ 
+header:hover { 
+background-color : rgba(0, 0, 0, 0.2);
+
+}
+
+header {
+    color: white;
+}
+
+nav > a:hover { 
+color: black;
+background: linear-gradient(to right,rgba(188, 62, 255, 1), rgba(102, 110, 255, 1), rgba(82, 226, 140, 1), rgba(249, 255, 123, 1), rgba(255, 191, 77, 1), rgba(255, 80, 80, 1));
+
+}
+
+#intro {
+    
+        margin:0;
+        padding:0;
+        background: url("../img/urban.jpg") no-repeat center fixed; 
+        -webkit-background-size: cover;
+        background-size: cover; 
+}
+
+
+    #intro > h1 > span:nth-child(1)
+    {
+    text-shadow: 5px 5px 10px blue;
+    opacity: 0,5;
+    }
+
+
+    #intro > h1 > span:nth-child(2) {
+    text-shadow: 5px 5px 10px red;
+    opacity: 0,5;
+    }
+
+    #intro > h1 > span:nth-child(3) {
+    text-shadow: 5px 5px 10px green;
+    opacity: 0,5;
+    }
+        
+    #intro > h1 > span:nth-child(4) {
+    text-shadow: 5px 5px 10px yellow;
+    opacity: 0,5;
+    }
+    
+    #intro > h1 > span:nth-child(5) {
+        text-shadow: 5px 5px 10px purple;
+        opacity: 0,5;
+    }
+    
+    body > header > a {
+        box-shadow: 8px 8px 12px whitesmoke ;
+      
+
+    }
+
+    #team {
+background-color: black ;
+color: white;
+
+
+    }
+ 
+    #team > h2 {
+        opacity: 0,7;
+    }
+    
+    #team > div.photographer.karl :hover {
+    background: linear-gradient(to right,rgba(188, 62, 255, 1), rgba(102, 110, 255, 1), rgba(82, 226, 140, 1), rgba(249, 255, 123, 1), rgba(255, 191, 77, 1), rgba(255, 80, 80, 1));
+    }
+
+    #team > div.photographer.bertha :hover {
+        background: linear-gradient(to right,rgba(188, 62, 255, 1), rgba(102, 110, 255, 1), rgba(82, 226, 140, 1), rgba(249, 255, 123, 1), rgba(255, 191, 77, 1), rgba(255, 80, 80, 1));
+        }
+
+    #team > div.photographer.willy :hover {
+            background: linear-gradient(to right,rgba(188, 62, 255, 1), rgba(102, 110, 255, 1), rgba(82, 226, 140, 1), rgba(249, 255, 123, 1), rgba(255, 191, 77, 1), rgba(255, 80, 80, 1));
+            }
+
+    #team > div.photographer.karl :hover {
+       
+            box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+        
+
+    }
+
+    #team > div.photographer.bertha :hover {
+       
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    
+
+}
+
+#team > div.photographer.willy :hover {
+       
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+
+
+}
